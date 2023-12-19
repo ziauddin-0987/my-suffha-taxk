@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+/* header navbar */
+
+header nav {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+.left-icon {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: absolute;
+  right: 30px;
+}
+h1 {
+  margin-left: 70px;
+}
+/* first section */
+#text-1 {
+  margin-left: 30px;
+  border-radius: 20px;
+  height: 30px;
+  padding-left: 20px;
+  border-color: darkgray;
+}
+.number {
+  font-size: 70px;
+  font-family: initial;
+  padding: 20px;
+}
+.sign {
+  /* box-shadow: 7px 5px 10px 10px gray; */
+}
+.head-2 {
+  padding-bottom: 15px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-top: 4rem;
+}
+/* card items */
+.card-1 {
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 300px;
+  position: relative;
+  box-shadow: 10px 10px 20px 0px gray;
+}
+#card {
+  width: 300px;
+  height: 100px;
+}
+#img-01 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  position: absolute;
+  bottom: 50px;
+}
+.cardHeading3 {
+  padding: 15px;
+  padding-top: 10px;
+}
+.card-address {
+  margin-left: 60px;
+  /* padding-top: 30px; */
+  /* font-family: sans-serif; */
+  position: absolute;
+  bottom: 30px;
+}
+.card-address {
+  font-family: serif;
+}
+.twoBox {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 30px;
+}
+
+body {
+  margin-bottom: 300px;
+}
